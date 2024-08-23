@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les 1: Kennismaking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">Kinderen Leren Nederlands</div>
+                <button class="menu-toggle" aria-label="Open menu">
+                    <span class="menu-icon"></span>
+                    <span class="menu-icon"></span>
+                    <span class="menu-icon"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="lessen.html">Lessen</a></li>
+                    <li><a href="#over-ons">Over Ons</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="lesson-page">
+        <section id="les1" class="section lesson-content">
+            <h2>Les 1: Kennismaking</h2>
+            <p>Welkom bij je eerste les Nederlands! Vandaag gaan we samen leren hoe je 'Hallo' zegt en enkele andere leuke woorden en zinnen.</p>
+            
+            <div class="activity">
+                <h3>1. Introductie</h3>
+                <p>Hallo! Vandaag gaan we leren hoe je elkaar begroet en hoe je je voorstelt. Dit is belangrijk om goed te kunnen praten in het Nederlands.</p>
+            </div>
+            
+            <div class="activity">
+                <h3>2. Basiswoorden</h3>
+                <p>Leer deze woorden:</p>
+                <ul>
+                    <li>Hallo</li>
+                    <li>Dank je wel</li>
+                    <li>Ja</li>
+                    <li>Nee</li>
+                </ul>
+                <p>Hier zijn plaatjes van de woorden. Oefen door ze hardop te zeggen!</p>
+                <div class="image-grid">
+                    <div class="image-item">
+                        <img src="images/hallo.png" alt="Hallo">
+                        <p>Hallo</p>
+                    </div>
+                    <div class="image-item">
+                        <img src="images/ja.png" alt="Ja">
+                        <p>Ja</p>
+                    </div>
+                    <div class="image-item">
+                        <img src="images/nee.png" alt="Nee">
+                        <p>Nee</p>
+                    </div>
+                    <div class="image-item">
+                        <img src="images/dankjewel.png" alt="Dank je wel">
+                        <p>Dank je wel</p>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+            
+            <div class="activity">
+                <h3>3. Eenvoudige Zinnen</h3>
+                <p>Leer deze zinnen:</p>
+                <ul>
+                    <li>Hoe gaat het?</li>
+                    <li>Ik heet [naam].</li>
+                </ul>
+                <p>Herhaal de zinnen met behulp van de plaatjes en oefen ze met je ouder of verzorger.</p>
+                <img src="images/kennismaking.png" alt="Eenvoudige Zinnen">
+            </div>
+            
+            <div class="activity">
+                <h3>4. Luister- en Spreekoefening</h3>
+                <p>Luister naar een kort verhaaltje en probeer de woorden te herkennen die we hebben geleerd.</p>
+                <audio controls>
+                    <source src="gesprekje.mp3" type="audio/mp3">
+                    Je browser ondersteunt deze audio tag niet.
+                </audio>
+                <p>Praat daarna over wat je hebt gehoord met iemand.</p>
+            </div>
+            
+            <div class="activity interactive">
+                <h3>5. Interactieve Activiteit</h3>
+                <p>Speel een leuk memoryspel met de woorden en plaatjes die we hebben geleerd.</p>
+                <button onclick="startMemoryGame()">Start Memory Game</button>
+            </div>
+            
+            <div class="activity interactive">
+                <h3>6. Rollenspel</h3>
+                <p>Doe een rollenspel met je ouder of verzorger. Gebruik de woorden en zinnen die je hebt geleerd!</p>
+                <button onclick="startRolePlay()">Start Rollenspel</button>
+            </div>
+            
+            <div class="activity">
+                <h3>7. Afsluiting</h3>
+                <p>Herhaal de woorden en zinnen die we vandaag hebben geleerd. Maak thuis een mooie tekening van jezelf die 'Hallo' zegt.</p>
+            </div>
+        </section>
+    </main>    
+    
+    <footer>
+        <p>&copy; 2024 Kinderen Leren Nederlands. Alle rechten voorbehouden.</p>
+    </footer>
+
+    <script>
+        function startMemoryGame() {
+            alert('Memory Game start binnenkort!'); // Placeholder functie
+        }
+        function startRolePlay() {
+            alert('Rollenspel start binnenkort!'); // Placeholder functie
+        }
+    </script>
+</body>
+</html>
+
